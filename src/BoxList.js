@@ -34,7 +34,7 @@ const BoxList = () => {
   };
   return (
     <div className="BoxList">
-      <NewBoxForm addItem={addBox} />
+      <NewBoxForm addBox={addBox} />
       {renderBoxes()}
     </div>
   );
